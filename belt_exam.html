@@ -1,0 +1,204 @@
+<!doctype HTML>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Belt Exam" />
+	<title>Belt Exam</title>
+	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/dark-hive/jquery-ui.css"/>
+	<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"/> -->
+	<link rel="stylesheet" type="text/css" href="css/belt_exam.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script type="text/javascript" src="./jquery.zoom.min.js"></script>
+	
+	<script>
+	$(document).ready(function(){
+		$('img').click(function(){
+			console.log('test');
+			$(this).attr('src', './images/yellow.png')
+		});
+
+		return false;
+	});
+	</script>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<p>Give you a good mood everyday</p>
+			<ul>
+				<li><a href="#"><img src="images/magnifying.png" alt=""/></a><li>
+				<li><a href="#">About</a><li>
+				<li><a href="#">Browse</a><li>
+				<li><a href="#">Popular</a><li>
+				<li><a href="#">Submit *</a><li>
+			</ul>
+		</header> 
+		<div id="top_content">
+			<p>All Animal Pictures</p>
+			<button id="features" type="button">FEATURES</button>
+			<button id="upcoming" type="button">UPCOMING</button>
+			<div id="social_links">
+				<button id="fb_button" type="button">F</button>
+				<button id="twit_button" type="button">T</button>
+				<button id="pin_button" type="button">P</button>
+				<button id="rss_button" type="button">R</button>
+				<button id="main_button" type="button">M</button>
+			</div>
+		</div> <!--End of #top_content -->
+
+		<div id="main_content">
+			<div class="column" id="column1">
+				<div class="image_post" title="Prepare to be Overloaded">
+					<img src="http://placehold.it/150x100" alt="" />
+					<h2>Prepare to be Overloaded</h2>
+					<div class="upload_info">
+						<p>an hour ago</p>
+						<img src="./images/like.png" alt="" />
+						<p>0</p>
+					</div>
+				</div>
+				<div class="image_post" title="Parenting Is Exhausting">
+					<img src="http://placehold.it/150x100" alt="" />
+					<h2 class="orange_back">Parenting Is Exhausting</h2>
+					<div class="upload_info">
+						<p>6 hours ago</p>
+						<img src="./images/like.png" alt="" />
+						<p>4</p>
+					</div>
+				</div>
+				<div class="image_post" title="Mom, I Think We're Being Followed!">
+					<img src="http://placehold.it/150x200" alt="" />
+					<h2>Mom, I Think We're Being Followed!</h2>
+					<div class="upload_info">
+						<p>11 hours ago</p>
+						<img src="./images/like.png" alt="" />
+						<p>8</p>
+					</div>
+				</div>
+			</div> <!--End of column1 -->
+
+			<div class="column" id="column2">
+				<div class="image_post" title="My Friend Get Paid to Play WIth This Guy All Day">
+					<img src="http://placehold.it/150x200" alt="" />
+					<h2>My Friend Get Paid to Play WIth This Guy All Day</h2>
+					<div class="upload_info">
+						<p>2 hours ago</p>
+						<img src="./images/like.png" alt="" />
+						<p>0</p>
+					</div>
+				</div>
+				<div class="image_post" title="Mustached Birds">
+					<img src=" http://placehold.it/150x100" alt="" />
+					<h2>Mustached Birds</h2>
+					<div class="upload_info">
+						<p>8 hours ago</p>
+						<img src="./images/like.png" alt="" />
+						<p>5</p>
+					</div>
+				</div>
+				<div class="image_post" title="Pricess Pup">
+					<img src="http://placehold.it/150x200" alt="" />
+					<h2>Princess Pup</h2>
+					<div class="upload_info">
+						<p>12 hours ago</p>
+						<img src="./images/like.png" alt="" />
+						<p>4</p>
+					</div>
+				</div>
+			</div> <!--End of column2 -->
+
+			<div class="column" id="column3">
+				<div class="image_post" title="My Brothers Girlfriends Dog is Albino And Has An Under Bite">
+					<img src="http://placehold.it/150x200" alt="" />
+					<h2>My Brothers Girlfriends Dog is Albino And Has An Under Bite</h2>
+					<div class="upload_info">
+						<p>3 hours ago</p>
+						<img src="./images/like.png" alt="" />
+						<p>2</p>
+					</div>
+				</div>
+				<div class="image_post" title="Oooooh, I Hope I Get Nuts!">
+					<img src="http://placehold.it/150x200" alt="" />
+					<h2>Oooooh, I Hope I Get Nuts!</h2>
+					<div class="upload_info">
+						<p>9 hours ago</p>
+						<img src="./images/like.png" alt="" />
+						<p>4</p>
+					</div>
+				</div>
+			</div> <!--End of column3 -->
+			<div class="column" id="column4">
+				<div class="image_post" id="facebook_fanpage" title="">
+					<!-- <img src="images/facebook.png"> -->
+					<h2 id="top_h2">We have just created a</h2>
+					<h2>New Facebook Fan Page</h2>
+					<button type="button"><img src="./images/fb.png" alt=""/>Like</button>
+					<label>16k</label>
+					<h3>Like us on Facbook</h3>
+					<div class="upload_info" id="facebook_upload">
+						<p>Do you love this site?</p>
+					</div>
+				</div>
+				<div class="image_post" title="Peek-A-Boo!!">
+					<img src="http://placehold.it/150x100" alt="" />
+					<h2>Peek-A-Boo!!</h2>
+					<div class="upload_info">
+						<p>5 hours ago</p>
+						<img src="./images/like.png" alt="" />
+						<p>3</p>
+					</div>
+				</div>
+				<div class="image_post" title="On The Hunt">
+					<img src="http://placehold.it/150x200" alt="" />
+					<h2>On The Hunt</h2>
+					<div class="upload_info">
+						<p>10 hours ago</p>
+						<img src="./images/like.png" alt="" />
+						<p>6</p>
+					</div>
+				</div>
+				<div class="image_post" title="Cat">
+					<img src="http://placehold.it/150x100" alt="" />
+					<h2>I'm A Kitty Kat</h2>
+					<div class="upload_info">
+						<p>4 hours ago</p>
+						<img src="./images/like.png" alt="" />
+						<p>1</p>
+					</div>
+				</div>
+			</div> <!--End of column4 -->
+
+			<div class="column" id="column5">
+				<div class="image_post" title="Peek-A-Boo!">
+					<img src="http://placehold.it/150x200" alt="" />
+					<h2>Peek-A-Boo!</h2>
+					<div class="upload_info">
+						<p>4 hours ago</p>
+						<img src="./images/like.png" alt="" />
+						<p>2</p>
+					</div>
+				</div>
+				<div class="image_post" title="My Boxer Pal, Enzo">
+					<img src="http://placehold.it/150x150" alt="" />
+					<h2>My Boxer Pal, Enzo</h2>
+					<div class="upload_info">
+						<p>7 hours ago</p>
+						<img src="./images/like.png" alt="" />
+						<p>6</p>
+					</div>
+				</div>
+				<div class="image_post" title="Looking After This Little Fuzzy Thing All Day">
+					<img src="http://placehold.it/150x200" alt="" />
+					<h2>Looking After This Little Fuzzy Thing All Day</h2>
+					<div class="upload_info">
+						<p>12 hours ago</p>
+						<img src="./images/like.png" alt="" />
+						<p>9</p>
+					</div>
+				</div>
+			</div> <!--End of column5 -->
+		</div> <!--End of #main_content -->
+	</div> <!--End of #container -->
+</body>
+</html

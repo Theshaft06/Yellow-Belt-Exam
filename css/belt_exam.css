@@ -1,0 +1,191 @@
+header{
+	width: 850px;
+	height: 55px;
+	background-color: #E34113;
+	box-shadow: 0px 1px 3px #000;;
+}
+	header a{
+		color: #FAFFF0;
+		text-decoration: none;
+	}
+	header p{
+		color: #FAFFF0;
+		font-size: 9px;
+		margin-top: 30px;
+		margin-left: 165px;
+	}
+	header ul{
+		display: inline-block;
+		margin-left: 65px;
+	}
+	header ul li{
+		list-style-type: none;
+		display: inline-block;
+		padding: 10px;
+	}
+
+p{
+	display: inline-block;
+	margin: 0px;
+	margin-left: 30px;
+	font-size: 11px;
+}
+
+button{
+	display: inline-block;
+}
+
+h2{
+	padding: 10px;
+	margin: 0px;
+	font-size: 12px;
+}
+
+#container{
+	width: 850px;
+	height: auto;
+	margin: 5px auto;
+	background-image: url(../images/wood.jpg);
+}
+
+#top_content{
+	margin-top: 20px;
+}
+	#features{
+		color: white;
+		font-size: 12px;
+		background-color: #E34113;
+		border: 1px solid black;
+	}
+	#upcoming{
+		font-size: 12px;
+		background-color: rgba(0, 0, 0,0);
+		border: 1px solid black;
+	}
+
+#social_links{
+	display: inline-block;
+	margin-left: 430px;
+}
+	#social_links button{
+		font-size: 8px;
+		width: 15px;
+		height: 15px;
+		border: none;
+		border-radius: 2px;
+	}
+	#fb_button{
+		color: white;
+		background-color: #45639F;
+	}
+	#twit_button{
+		color: white;
+		background-color: #4D99D0;
+	}
+	#pin_button{
+		color: white;
+		background-color: #CD3530;
+	}
+	#rss_button{
+		color: white;
+		background-color: #F89D3F;
+	}
+	#main_button{
+		background-color: #E5EBEE;
+	}
+
+#main_content{
+	margin-left: 25px;
+	margin-top: 5px;
+}
+.column{
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+.image_post{
+	width: 150px;
+	height: auto;
+	background-color: #F4F4F4;
+	margin-bottom: 20px;
+	border: 1px white;
+	box-shadow: -1px -2px 0px #FFFFFF;;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+	.image_post p{
+		text-align: middle;
+		background-color: #F2EDE6;
+		color: #64737B;
+		font-size: 10px;
+		margin: 0px;
+		text-align: middle;
+	}
+	.upload_info{
+		padding: 5px;
+		background-color: #F6EFE4;
+		border: 1px solid lightgray;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+	}
+		.upload_info p{
+			display: inline-block;
+		}
+		.upload_info img{
+			margin-left: 50px;
+			display: inline-block;
+		}
+.orange_back{
+	color: #FEFEFE;
+	background-color: #E34113;
+}
+
+#facebook_fanpage{
+	height: 100px;
+	margin-bottom: 30px;
+	background-image: url(../images/facebook.png);
+	background-repeat: no-repeat;
+}
+	#facebook_fanpage #top_h2{
+		padding-top: 10px;
+		margin-top: 0px;
+	}
+	#facebook_fanpage h2{
+		font-size: 8px;
+		color: white;
+		padding: 0px;
+		margin-top: 5px;
+		margin-left: 10px;
+	}
+	#facebook_fanpage h3{
+		font-size: 10px;
+		margin: 5px 0px 0px 10px;
+		padding: 5px;
+		color: white;
+	}
+	#facebook_fanpage button{
+		margin-top: 0px;
+		margin-left: 10px;
+		width: 40px;
+		height: 20px;
+		font-size: 8px;
+		display: inline-block;
+	}
+		#facebook_fanpage button img{
+			margin-right: 2px;
+		}
+	#facebook_fanpage label{
+		display: inline-block;
+		background-color: white;
+		font-size: 9px;
+	}
+
+#facebook_upload{
+	width: 150px;
+	background-color: #F4EFE8;
+}
+#facebook_upload p{
+	padding: 5px;
+	color: #73A2F9;
+	margin: 0px;
+}
