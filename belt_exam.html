@@ -1,25 +1,22 @@
 <!doctype HTML>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8" />
 	<meta name="description" content="Belt Exam" />
 	<title>Belt Exam</title>
 	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/dark-hive/jquery-ui.css"/>
-	<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"/> -->
 	<link rel="stylesheet" type="text/css" href="css/belt_exam.css">
-	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.js"></script>
-	<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-	<script type="text/javascript" src="./jquery.zoom.min.js"></script>
+	<script src="http://code.jquery.com/jquery-2.0.3.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 	
 	<script>
-	$(document).ready(function(){
-		$('img').click(function(){
-			console.log('test');
-			$(this).attr('src', './images/yellow.png')
-		});
+		$(document).ready(function(){
+			$('img').click(function(){
+				$(this).attr('src', './images/yellow.png')
+			});
 
-		return false;
-	});
+			return false;
+		});
 	</script>
 </head>
 <body>
@@ -201,4 +198,4 @@
 		</div> <!--End of #main_content -->
 	</div> <!--End of #container -->
 </body>
-</html
+</html>

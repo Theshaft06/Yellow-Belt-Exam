@@ -65,14 +65,14 @@ h2{
 
 #social_links{
 	display: inline-block;
-	margin-left: 430px;
+	margin-left: 435px;
 }
 	#social_links button{
 		font-size: 8px;
-		width: 15px;
 		height: 15px;
 		border: none;
 		border-radius: 2px;
+		text-align: center;
 	}
 	#fb_button{
 		color: white;
@@ -136,6 +136,7 @@ h2{
 			display: inline-block;
 		}
 .orange_back{
+	margin-top: -5px;
 	color: #FEFEFE;
 	background-color: #E34113;
 }
@@ -168,10 +169,11 @@ h2{
 		margin-left: 10px;
 		width: 40px;
 		height: 20px;
-		font-size: 8px;
+		font-size: 6px;
 		display: inline-block;
 	}
 		#facebook_fanpage button img{
+			vertical-align: middle;
 			margin-right: 2px;
 		}
 	#facebook_fanpage label{
@@ -181,7 +183,6 @@ h2{
 	}
 
 #facebook_upload{
-	width: 150px;
 	background-color: #F4EFE8;
 }
 #facebook_upload p{
